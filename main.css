@@ -152,3 +152,32 @@ a {
     display: inline-block;
     line-height: 333%;
 }
+
+/* footer */
+
+.footer {
+    background-color: red;
+    margin: 0 auto;
+    height: 5rem;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 124rem;
+}
+
+.footer ul li a {
+    font-size: 1.5rem;
+    color: #ccc;
+    position: relative;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: center;
+}
